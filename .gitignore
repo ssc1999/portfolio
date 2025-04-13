@@ -1,23 +1,76 @@
-node_modules
+############################
+# FRONTEND IGNORE
+############################
 
 # Output
-.output
-.vercel
-.netlify
-.wrangler
-/.svelte-kit
-/build
+/frontend/.output
+/frontend/.vercel
+/frontend/.netlify
+/frontend/.wrangler
+/frontend/.svelte-kit
+/frontend/build
 
 # OS
-.DS_Store
-Thumbs.db
+/frontend/.DS_Store
+/frontend/Thumbs.db
 
 # Env
-.env
-.env.*
-!.env.example
-!.env.test
+/frontend/.env
+/frontend/.env.*
+!/frontend/.env.example
+!/frontend/.env.test
 
 # Vite
-vite.config.js.timestamp-*
-vite.config.ts.timestamp-*
+/frontend/vite.config.js.timestamp-*
+/frontend/vite.config.ts.timestamp-*
+
+# Node
+/frontend/node_modules
+
+############################
+# BACKEND IGNORE
+############################
+
+# OS
+/backend/my-strapi-portfolio/.DS_Store
+/backend/my-strapi-portfolio/.AppleDouble
+/backend/my-strapi-portfolio/.LSOverride
+/backend/my-strapi-portfolio/Icon
+/backend/my-strapi-portfolio/.Spotlight-V100
+/backend/my-strapi-portfolio/.Trashes
+/backend/my-strapi-portfolio/._*
+/backend/my-strapi-portfolio/Thumbs.db
+/backend/my-strapi-portfolio/ehthumbs.db
+/backend/my-strapi-portfolio/Desktop.ini
+/backend/my-strapi-portfolio/$RECYCLE.BIN/
+
+# Misc
+/backend/my-strapi-portfolio/*.log
+/backend/my-strapi-portfolio/.tmp
+/backend/my-strapi-portfolio/.idea
+/backend/my-strapi-portfolio/.eslintcache
+/backend/my-strapi-portfolio/.tsbuildinfo
+
+# Packages and builds
+/backend/my-strapi-portfolio/*.zip
+/backend/my-strapi-portfolio/*.tar
+/backend/my-strapi-portfolio/*.rar
+/backend/my-strapi-portfolio/*.gz
+/backend/my-strapi-portfolio/*.7z
+/backend/my-strapi-portfolio/build
+/backend/my-strapi-portfolio/dist
+/backend/my-strapi-portfolio/node_modules
+/backend/my-strapi-portfolio/.strapi
+/backend/my-strapi-portfolio/.strapi-updater.json
+/backend/my-strapi-portfolio/.strapi-cloud.json
+/backend/my-strapi-portfolio/exports
+/backend/my-strapi-portfolio/license.txt
+/backend/my-strapi-portfolio/public/uploads/*
+!/backend/my-strapi-portfolio/public/uploads/.gitkeep
+
+# Env
+/backend/my-strapi-portfolio/.env
+/backend/my-strapi-portfolio/.env.*
+
+# Tests & coverage
+/backend/my-strapi-portfolio/coverage

@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "occupations",
+  "info": {
+    "singularName": "occupation",
+    "pluralName": "occupations",
+    "displayName": "Occupation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Position": {
+      "type": "string",
+      "required": true
+    },
+    "Company": {
+      "type": "string",
+      "required": true
+    },
+    "TimeRange": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "Tags": {
+      "type": "enumeration",
+      "enum": [
+        "Backend",
+        "Frontend",
+        "Fullstack",
+        "API",
+        "PHP",
+        "C",
+        "Java",
+        "Javascript",
+        "Svelte",
+        "Magento",
+        "Angular",
+        "Node",
+        "React",
+        "Git",
+        "Docker",
+        "AWS",
+        "MySQL",
+        "MongoDB",
+        "PostgreSQL"
+      ]
+    },
+    "Location": {
+      "type": "string",
+      "required": true
+    },
+    "TypeOfWork": {
+      "type": "string"
+    }
+  }
+}
