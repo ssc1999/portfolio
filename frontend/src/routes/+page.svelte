@@ -15,8 +15,8 @@
 <div class="min-h-screen dark bg-neutral-950 text-neutral-100">
   <LayoutContainer>
     <Hero />
-    <SelectedWorks projects={data.projects} />
     <Experience occupations={data.occupations} />
+    <SelectedWorks projects={data.projects} />
     <About />
     <Contact />
   </LayoutContainer>
