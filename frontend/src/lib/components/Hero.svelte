@@ -12,7 +12,7 @@
     <div class="flex justify-center gap-4">
       <a
         href="#projects"
-        class="px-6 py-3 bg-black text-white bg-gray-600 dark:text-black rounded-lg hover:opacity-90 transition"
+        class="px-6 py-3 bg-black text-white bg-gray-600 dark:text-white rounded-lg hover:opacity-90 transition"
       >
         See my work
       </a>

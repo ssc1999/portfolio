@@ -7,7 +7,7 @@
         Whether it's a quick idea, a big project, or just a connection — I’m always open to chat.
       </p>
       <a
-        href="mailto:you@example.com"
+        href="mailto:sergiosalgado.dev@gmail.com"
         class="inline-block px-6 py-3 bg-black text-white dark:bg-white dark:text-black font-semibold rounded-lg hover:opacity-90 transition"
       >
         Say Hello

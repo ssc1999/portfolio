@@ -8,7 +8,7 @@
       Experience
     </h2>
 
-    <div class="space-y-8">
+    <div class="space-y-8 w-full max-w-4xl mx-auto px-4">
       {#each occupations as job}
         <div class="p-6 rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 shadow-sm hover:shadow-md transition">
           <h3 class="text-lg font-semibold text-neutral-800 dark:text-neutral-100">
