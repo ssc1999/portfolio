@@ -8,9 +8,9 @@
       </p>
       <a
         href="mailto:sergiosalgado.dev@gmail.com"
-        class="inline-block px-6 py-3 bg-black text-white dark:bg-white dark:text-black font-semibold rounded-lg hover:opacity-90 transition"
+        class="inline-block px-6 py-3 bg-black text-white dark:bg-gray-600 dark:text-white font-semibold rounded-lg hover:opacity-90 transition"
       >
-        Say Hello
+        Mail Me
       </a>
     </main>
   </section>
